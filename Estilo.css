@@ -1,2 +1,24 @@
+html, body, #body {
+    height: 100%;
+    margin: 0;
+}
 
+.box {
+    width: 200px;
+    height: 200px;
+}
 
+#body {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly ;
+
+}
+
+#imagem {
+    justify-content: center;
+}
+
+#pedido {
+    text-align: center;
+}
