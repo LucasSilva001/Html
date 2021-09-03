@@ -2,37 +2,49 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./Estilo.css">
     <title>Descrissão do pedido</title>
 </head>
 <body>
-    <h2>Descrissão do pedido</h2>
-    <div>
-    <img src="https://images.unsplash.com/photo-1552539618-7eec9b4d1796?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHBvcnR1Z3Vlc2UlMjBwaXp6YXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="blank" width="300px">
-    <h3>Pizza Portuguesa</h3>
-    <h4>Tamanho:</h4>
-    <th> <span> Pequena R$ 37,00 </span></th>
-    <input type="radio" name="tamanho">
-    <p>
-    <th> <span> Média R$ 45,00 </span></th>
-    <input type="radio" name="tamanho">
-    <p>
-    <th> <span> Grande R$ 58,00 </span></th>
-    <input type="radio" name="tamanho">
-    <p>
-    <th> <span> Quantidade: </span> </th>
-    <input type="number" name="tamanho">
-    <p>
-    <th> Pizza de muçarela, com milho, pimentão verde,vermelho e amarelo, <br> azeitona e pepino. </th>
+    <h2 id="center">Pizzaria alá Silva</h2>
+    <hr>
+    <h2 class="margem">Descrissão do pedido</h2>
+    <div id="alinhar2" >
+        <img src="https://images.unsplash.com/photo-1552539618-7eec9b4d1796?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHBvcnR1Z3Vlc2UlMjBwaXp6YXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="blank" width="300px">
+        <div id="alinhar">
+            <h3>Pizza Portuguesa</h3>
+            <h4>Tamanho:</h4>
+            <div>
+                <span> Pequena R$ 37,00 </span>
+                <input type="radio" name="tamanho">
+            </div>
+            <br>
+            <div>
+                <span> Média R$ 45,00 </span>
+                <input type="radio" name="tamanho">
+            </div>
+            <br>
+            <div>
+                <span> Grande R$ 58,00 </span>
+                <input type="radio" name="tamanho">
+            </div>
+            <br>
+            <div>
+                <span> Quantidade: </span>
+                <input type="number" name="tamanho" style="width: 35px;">
+                <a href="Pedido.html"> <button>Pedir</button></a>
+            </div>
+            <br>
+        </div>
     </div>
-
+    <div id="margem-descricao">Pizza de muçarela, com milho, pimentão verde, <br> vermelho e amarelo, azeitona e pepino.</div>
     <hr>
 
-    <div>
-        <th> Pizzaria Alá Silva </th> 
-        <th>Endereço: Jaraguá do Sul</th>
-        <br>
-        <th>Endereço: Rua Bertha Weege</th> 
-        <th>Número: 5760</th>
+    <div id="descricao-site">
+        <p>Pizzaria Alá Silva</p>
+        <p>Cidade: Jaraguá do Sul</p> 
+        <p>Endereço: Rua Bertha Weege</p>
+        <p>Número: 5760</p>
     </div>
 
 </body>
